@@ -1,0 +1,137 @@
+wifi pineapple
+hackrf
+
+Information Gathering:
+Google can be used for most of the informtion gathering 
+
+
+1. system inbuilt utilities
+2. Website based information gathering
+3. Brower addon bzsed information gathering
+4. OS based information gathering
+5. Social Media /mail account based information gathering
+ -------------------GOOGLE ---------------------------
+Exact results - filetype:pdf intext:hacking site:np
+the above method of using key words in google search is called google gooogle dorks . its a set of keywords which can be used inorder to get exact results
+
+file type , inurl,  site , intext, allinurl, 
+
+EXamples:
+filetype:xlspassword site:in
+filetype:xlspassword inurl:college
+filetype:xlspassword site:org
+
+
+GOOgle dorks-  eploot db .com
+
+translate.google.com can be usedf as proxy server whic in blocked in your network
+
+https://www.exploit-db.com/google-hacking-database 
+ filetype:inc intext:mysql_connect
+
+
+this is equivalent to you typung on google the foolllowing
+give me the list of all websites in india which have excell sheet paswords
+
+
+main information gatghering: IP adress
+1. COMMAND PROMPT 
+ping nami.edu.np
+reply : ip address
+ping sends 4 ICMP Echo request from your pc
+if available we get 4 ICMP echo repies
+lemgth of packet will be 32/64 bits
+
+Ping -L 64000 -C 100000 nami.edu.np
+_l length/size of the packets 64000 bytts
+ -C/-N - number of packets
+
+
+ when u give the aove command and if u get a reply lioke below
+
+Request timed out - it means ur target is using afirewall and it is c\blovcking u from accesing it
+
+ incase if u get a reply it menas they dont have firewall and theri network infrastture is weak
+ 
+
+
+othercomand - NSLOOKUP : to get the DNS address of the target 
+TRACERT - to find the route taken bu your packet till the target
+
+
+
+
+
+2> ---------Website based information gathering------------------
+1. Whoislookup- to find the details abourt ur target regarding domain registrationdate , expirydate, ownerdeatils, ip details, serverdetails.
+2.archieve.org - to check websites older screenshots.
+
+Below sites can give you the maximum information.
+
+3.www.toolbar.netcraft.co
+4.www.mxtoolbox.com
+5.www.centralops.net
+6.www.dnsqueries.com
+7: Browser add on based information gathering
+-----------------Chrome extensions---------------
+a:wappalyzer -addon generating all the information regarding that sie
+b:hackbar (check specially)
+c: whatruns
+d:Pagexray
+
+------------------------OS based information gathering----------------------------
+Back track
+
+
+
+
+----------------------Social Media / MAil account information gathering---------------------------
+------------------Gmail --------------------------------- Show original
+Email from amit@abc.com
+ returnpath - if the email have aslo same domain name it is correct otherwise it is spam or fake
+Recieved from - should have also the same ip address if it is asam e  then here is no proxy software used by the sender
+if sender ip address in different in all places of heder, then sender has used a vpn /proxy to hide his ip--
+---------------------------online header analysis tool---------------------
+www.mxtoolbox.com
+(email header anaysis online --- mx toolbox)--- to check if the email is original or spoofed
+
+
+------------------------Social medial accounts -IP loggers----------------------
+1.GRABIFY IP LOGGER
+you can create an new url-----you can have the details about the ip address of the user and all 
+the mobile details
+
+
+----------use gmail compose mail--------------------------------------------------
+2.gmail send email - first select the link and changes url link if you click insert link
+
+---------------------------------------------------------------------------------------------------
+
+
+-------to check the authencity of any link or any file or any domain--------------------- 
+
+3. to check the link is fake or original ---- virustotal.com
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
